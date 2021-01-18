@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		4B39E88825B2D734001479E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39E88725B2D734001479E3 /* AppDelegate.swift */; };
 		4B39E88A25B2D734001479E3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4B39E88925B2D734001479E3 /* GameScene.sks */; };
-		4B39E88C25B2D734001479E3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4B39E88B25B2D734001479E3 /* Actions.sks */; };
 		4B39E88E25B2D734001479E3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39E88D25B2D734001479E3 /* GameScene.swift */; };
 		4B39E89025B2D734001479E3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39E88F25B2D734001479E3 /* GameViewController.swift */; };
 		4B39E89325B2D734001479E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B39E89125B2D734001479E3 /* Main.storyboard */; };
 		4B39E89525B2D735001479E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B39E89425B2D735001479E3 /* Assets.xcassets */; };
+		4B39E8A025B2D7C4001479E3 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4B39E89F25B2D7C4001479E3 /* Starfield.sks */; };
+		4B39E8A425B2DAA9001479E3 /* enemy-types.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B39E8A225B2DAA9001479E3 /* enemy-types.json */; };
+		4B39E8A525B2DAA9001479E3 /* waves.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B39E8A325B2DAA9001479E3 /* waves.json */; };
+		4B39E8A825B2DAFE001479E3 /* EnemyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39E8A725B2DAFE001479E3 /* EnemyType.swift */; };
+		4B39E8AB25B2DB2C001479E3 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39E8AA25B2DB2C001479E3 /* Wave.swift */; };
+		4B39E8AE25B2DBA6001479E3 /* Bundle-Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39E8AD25B2DBA6001479E3 /* Bundle-Decoding.swift */; };
+		4B39E8B125B2DCF9001479E3 /* EnemyNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39E8B025B2DCF9001479E3 /* EnemyNode.swift */; };
+		4B39E8B425B528A3001479E3 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4B39E8B325B528A3001479E3 /* Explosion.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B39E88425B2D734001479E3 /* GalaxyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalaxyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B39E88725B2D734001479E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B39E88925B2D734001479E3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		4B39E88B25B2D734001479E3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		4B39E88D25B2D734001479E3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		4B39E88F25B2D734001479E3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		4B39E89225B2D734001479E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B39E89425B2D735001479E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B39E89625B2D735001479E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B39E89F25B2D7C4001479E3 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		4B39E8A225B2DAA9001479E3 /* enemy-types.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "enemy-types.json"; sourceTree = "<group>"; };
+		4B39E8A325B2DAA9001479E3 /* waves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = waves.json; sourceTree = "<group>"; };
+		4B39E8A725B2DAFE001479E3 /* EnemyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyType.swift; sourceTree = "<group>"; };
+		4B39E8AA25B2DB2C001479E3 /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
+		4B39E8AD25B2DBA6001479E3 /* Bundle-Decoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decoding.swift"; sourceTree = "<group>"; };
+		4B39E8B025B2DCF9001479E3 /* EnemyNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyNode.swift; sourceTree = "<group>"; };
+		4B39E8B325B528A3001479E3 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +74,19 @@
 			children = (
 				4B39E88725B2D734001479E3 /* AppDelegate.swift */,
 				4B39E88925B2D734001479E3 /* GameScene.sks */,
-				4B39E88B25B2D734001479E3 /* Actions.sks */,
 				4B39E88D25B2D734001479E3 /* GameScene.swift */,
+				4B39E8B325B528A3001479E3 /* Explosion.sks */,
+				4B39E8B025B2DCF9001479E3 /* EnemyNode.swift */,
+				4B39E89F25B2D7C4001479E3 /* Starfield.sks */,
 				4B39E88F25B2D734001479E3 /* GameViewController.swift */,
 				4B39E89125B2D734001479E3 /* Main.storyboard */,
 				4B39E89425B2D735001479E3 /* Assets.xcassets */,
 				4B39E89625B2D735001479E3 /* Info.plist */,
+				4B39E8A225B2DAA9001479E3 /* enemy-types.json */,
+				4B39E8A325B2DAA9001479E3 /* waves.json */,
+				4B39E8A725B2DAFE001479E3 /* EnemyType.swift */,
+				4B39E8AA25B2DB2C001479E3 /* Wave.swift */,
+				4B39E8AD25B2DBA6001479E3 /* Bundle-Decoding.swift */,
 			);
 			path = GalaxyGame;
 			sourceTree = "<group>";
@@ -129,8 +150,11 @@
 			files = (
 				4B39E89325B2D734001479E3 /* Main.storyboard in Resources */,
 				4B39E88A25B2D734001479E3 /* GameScene.sks in Resources */,
+				4B39E8A025B2D7C4001479E3 /* Starfield.sks in Resources */,
 				4B39E89525B2D735001479E3 /* Assets.xcassets in Resources */,
-				4B39E88C25B2D734001479E3 /* Actions.sks in Resources */,
+				4B39E8A525B2DAA9001479E3 /* waves.json in Resources */,
+				4B39E8B425B528A3001479E3 /* Explosion.sks in Resources */,
+				4B39E8A425B2DAA9001479E3 /* enemy-types.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B39E8AE25B2DBA6001479E3 /* Bundle-Decoding.swift in Sources */,
+				4B39E8B125B2DCF9001479E3 /* EnemyNode.swift in Sources */,
 				4B39E88E25B2D734001479E3 /* GameScene.swift in Sources */,
+				4B39E8AB25B2DB2C001479E3 /* Wave.swift in Sources */,
 				4B39E89025B2D734001479E3 /* GameViewController.swift in Sources */,
+				4B39E8A825B2DAFE001479E3 /* EnemyType.swift in Sources */,
 				4B39E88825B2D734001479E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZN8JLA8398;
 				INFOPLIST_FILE = GalaxyGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Astonish.GalaxyGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -304,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZN8JLA8398;
 				INFOPLIST_FILE = GalaxyGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +341,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Astonish.GalaxyGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
